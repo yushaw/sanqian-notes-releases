@@ -1,10 +1,6 @@
 # Sanqian Notes
 
 <p align="center">
-  <img src="https://sanqian.io/logo.png" alt="Sanqian Notes" width="120" />
-</p>
-
-<p align="center">
   <strong>A beautiful, AI-powered note-taking app for deep thinkers</strong>
 </p>
 
