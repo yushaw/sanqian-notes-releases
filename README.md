@@ -20,7 +20,6 @@ Download the latest version for your platform:
 | Platform | Download |
 |----------|----------|
 | macOS (Apple Silicon) | [Download .dmg](https://github.com/yushaw/sanqian-notes-releases/releases/latest) |
-| macOS (Intel) | [Download .dmg](https://github.com/yushaw/sanqian-notes-releases/releases/latest) |
 | Windows | [Download .exe](https://github.com/yushaw/sanqian-notes-releases/releases/latest) |
 
 ## Features
