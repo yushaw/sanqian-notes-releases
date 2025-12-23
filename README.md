@@ -33,9 +33,6 @@ Download the latest version for your platform:
 - **Dark Mode** - Easy on the eyes, day or night
 - **Multi-language** - English and Chinese supported
 
-## Screenshots
-
-<!-- Add screenshots here -->
 
 ## System Requirements
 
@@ -83,10 +80,6 @@ Download the latest version for your platform:
 - **深色模式** - 日夜皆宜，保护眼睛
 - **多语言** - 支持中文和英文
 
-## 截图
-
-<!-- 在此添加截图 -->
-
 ## 系统要求
 
 - macOS 10.15+（Catalina 或更高版本）
@@ -95,9 +88,3 @@ Download the latest version for your platform:
 ## 鸣谢
 
 - [Tickeys](https://github.com/yingDev/Tickeys/) - 打字机音效灵感来源
-
----
-
-## License
-
-MIT
