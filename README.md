@@ -24,24 +24,72 @@ Download the latest version for your platform:
 
 ## Features
 
-- **Block-based Editor** - Rich text editing with support for headings, lists, code blocks, tables, math equations, and more
-- **Bi-directional Links** - Connect your thoughts with `[[wiki-style]]` links between notes
-- **AI Assistant** - Built-in AI chat to help you write, summarize, and explore ideas
-- **Typewriter Mode** - Immersive writing experience with focus gradient and typing sounds
-- **Local-first** - Your notes are stored locally in SQLite, no cloud required
-- **Beautiful Design** - Clean, minimal interface inspired by zen aesthetics
-- **Dark Mode** - Easy on the eyes, day or night
-- **Multi-language** - English and Chinese supported
+**AI**
+- AI Chat -- integrated assistant with note context awareness
+- AI Actions -- quick operations on selected text (explain, translate, summarize, etc.)
+- RAG Knowledge Search -- semantic search across your notes
 
+**Editor**
+- Block Editor -- rich text editing powered by Tiptap/ProseMirror
+- Bi-directional Links -- `[[note]]`, `[[note#heading]]`, `[[note#^block]]` syntax
+- Typewriter Mode -- immersive writing with cursor-centered scrolling, focus gradient (paragraph/sentence), ambient scenes, and keystroke sounds
+- Templates -- template system with variables (`{{date}}`, `{{time}}`, `{{title}}`, etc.)
+- Split Panes & Multi-tab -- view and edit multiple notes side by side
+
+**Organization**
+- Smart Views -- All Notes, Daily Notes, Recent, Favorites
+- Full-text Search -- powered by SQLite FTS5
+- Notebooks & Tags -- organize with folders and tags
+- Local Folders -- manage local Markdown folders directly
+
+**Import/Export**
+- Markdown, PDF, Obsidian vault, Notion export
+
+**Other**
+- Dark/Light Mode -- follows system or manual toggle
+- Multi-language -- English and Chinese
+- Local-first -- your notes are stored locally, no cloud required
 
 ## System Requirements
 
 - macOS 10.15+ (Catalina or later)
 - Windows 10+
 
-## Acknowledgements
+## Third-Party Resources
 
-- [Tickeys](https://github.com/yingDev/Tickeys/) - Typewriter sound effects inspiration
+### Keyboard Sound Effects
+
+All sound sets via [Tickeys](https://github.com/yingDev/Tickeys) (MIT License):
+
+| Set | Original Source | License |
+|---|---|---|
+| Typewriter | Tickeys | MIT |
+| Cherry G80-3494 | Tickeys | MIT |
+| Bubble | [Glaneur de sons](https://freesound.org/people/Glaneur%20de%20sons/packs/6686/) via Tickeys | CC Attribution 3.0 |
+| Mechanical | [jim-ph](https://freesound.org/people/jim-ph/packs/12363/) via Tickeys | CC0 Public Domain |
+
+### Ambient Audio
+
+| Track | Source | License |
+|---|---|---|
+| Rain, Ocean, Space Ambient | [Pixabay](https://pixabay.com/) | Pixabay License (free commercial use) |
+| Cafe, Crickets, Stream, Wind | [Pixabay](https://pixabay.com/) | Pixabay License (free commercial use) |
+
+### Ambient Scene Shaders
+
+| Shader | Author | License |
+|---|---|---|
+| Starfield | Shadertoy | MIT |
+| Black Hole (Star Nest) | Pablo Roman Andrioli (Kali) | MIT |
+| Ocean | afl_ext | MIT |
+| Rain (Heartfelt) | Martijn Steinrucken (BigWings) | MIT |
+
+### Ambient Scene Images
+
+| Image | Source | License |
+|---|---|---|
+| Snow Field, Mountains, Lake, Pastel | [Unsplash](https://unsplash.com/) | Unsplash License (free commercial use) |
+| Cloud textures | [Resource Boy](https://resourceboy.com/) | Free for personal and commercial use |
 
 ---
 
@@ -71,20 +119,69 @@ Download the latest version for your platform:
 
 ## 功能特性
 
-- **块级编辑器** - 丰富的文本编辑，支持标题、列表、代码块、表格、数学公式等
-- **双向链接** - 使用 `[[双向链接]]` 语法连接你的想法
-- **AI 助手** - 内置 AI 对话，帮你写作、总结、探索思路
-- **打字机模式** - 沉浸式写作体验，焦点渐变效果，打字音效
-- **本地优先** - 数据存储在本地 SQLite，无需云端
-- **极简设计** - 干净优雅的界面，禅意美学
-- **深色模式** - 日夜皆宜，保护眼睛
-- **多语言** - 支持中文和英文
+**AI**
+- AI 对话 -- 内置 AI 助手，具备笔记上下文感知
+- AI 操作 -- 对选中文本快速操作（解释、翻译、总结等）
+- RAG 知识搜索 -- 基于笔记内容的语义检索
+
+**编辑器**
+- 块级编辑器 -- 基于 Tiptap/ProseMirror 的富文本编辑
+- 双向链接 -- `[[笔记]]`、`[[笔记#标题]]`、`[[笔记#^块]]` 语法
+- 打字机模式 -- 沉浸式写作，光标居中滚动，焦点渐变（段落/句子），环境场景，按键音效
+- 模板 -- 支持变量的模板系统（`{{date}}`、`{{time}}`、`{{title}}` 等）
+- 分栏与多标签 -- 并排查看和编辑多篇笔记
+
+**组织**
+- 智能视图 -- 全部笔记、每日笔记、最近、收藏
+- 全文搜索 -- 基于 SQLite FTS5
+- 笔记本与标签 -- 文件夹和标签分类管理
+- 本地文件夹 -- 直接管理本地 Markdown 文件夹
+
+**导入/导出**
+- Markdown、PDF、Obsidian 库、Notion 导出
+
+**其他**
+- 深色/浅色模式 -- 跟随系统或手动切换
+- 多语言 -- 支持中文和英文
+- 本地优先 -- 数据存储在本地，无需云端
 
 ## 系统要求
 
 - macOS 10.15+（Catalina 或更高版本）
 - Windows 10+
 
-## 鸣谢
+## 第三方资源
 
-- [Tickeys](https://github.com/yingDev/Tickeys/) - 打字机音效灵感来源
+### 键盘音效
+
+所有音效来自 [Tickeys](https://github.com/yingDev/Tickeys)（MIT 许可证）：
+
+| 音效 | 原始来源 | 许可证 |
+|---|---|---|
+| Typewriter | Tickeys | MIT |
+| Cherry G80-3494 | Tickeys | MIT |
+| Bubble | [Glaneur de sons](https://freesound.org/people/Glaneur%20de%20sons/packs/6686/) via Tickeys | CC Attribution 3.0 |
+| Mechanical | [jim-ph](https://freesound.org/people/jim-ph/packs/12363/) via Tickeys | CC0 Public Domain |
+
+### 环境音频
+
+| 音轨 | 来源 | 许可证 |
+|---|---|---|
+| 雨声、海浪、太空氛围 | [Pixabay](https://pixabay.com/) | Pixabay License（免费商用） |
+| 咖啡馆、蟋蟀、溪流、风声 | [Pixabay](https://pixabay.com/) | Pixabay License（免费商用） |
+
+### 环境场景着色器
+
+| 着色器 | 作者 | 许可证 |
+|---|---|---|
+| Starfield | Shadertoy | MIT |
+| Black Hole (Star Nest) | Pablo Roman Andrioli (Kali) | MIT |
+| Ocean | afl_ext | MIT |
+| Rain (Heartfelt) | Martijn Steinrucken (BigWings) | MIT |
+
+### 环境场景图片
+
+| 图片 | 来源 | 许可证 |
+|---|---|---|
+| 雪原、山脉、湖泊、粉彩 | [Unsplash](https://unsplash.com/) | Unsplash License（免费商用） |
+| 云纹理 | [Resource Boy](https://resourceboy.com/) | 免费个人和商业使用 |
